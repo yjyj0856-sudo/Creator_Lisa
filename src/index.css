@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Paperlogy", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
+  --font-display: "Paperlogy", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
+}
+
+@utility text-glow {
+  text-shadow: 0 0 15px rgba(168, 85, 247, 0.5), 0 0 30px rgba(168, 85, 247, 0.2);
+}
+
+@utility bg-grid {
+  background-size: 50px 50px;
+  background-image: 
+    linear-gradient(to right, rgba(168, 85, 247, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(168, 85, 247, 0.05) 1px, transparent 1px);
+}
+
+@utility bg-glow-purple {
+  background: radial-gradient(circle at center, rgba(168, 85, 247, 0.15) 0%, rgba(124, 58, 237, 0.05) 40%, transparent 70%);
+}
+
+@utility bg-glow-blue {
+  background: radial-gradient(circle at center, rgba(59, 130, 246, 0.12) 0%, rgba(37, 99, 235, 0.03) 50%, transparent 75%);
+}
+
+/* Custom Scrollbar for premium feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0A0F;
+}
+::-webkit-scrollbar-thumb {
+  background: #2D273D;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4C3E6B;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #050408;
+}

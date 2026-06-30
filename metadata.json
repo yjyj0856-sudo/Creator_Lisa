@@ -1,0 +1,6 @@
+{
+  "name": "새싹 4기 MICE 기획자 양성과정",
+  "description": "새싹 4기 AI활용 MICE기획자 양성과정 홈페이지 및 김연주 강사 소개",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
